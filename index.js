@@ -8,7 +8,10 @@ const calculate = (val) =>{
         console.log("value error");
         return
     }
-    console.log(val)
+    min = val * 60;
+    console.log(min);
+    sec = min * 60;
+    console.log(sec);
 }
 
-calculate("hello");
+calculate(1.33);
