@@ -14,4 +14,4 @@ const calculate = (val) =>{
     console.log(sec);
 }
 
-calculate(3);
+calculate("String");
